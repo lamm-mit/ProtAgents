@@ -1,17 +1,21 @@
 # ProtAgents
 ## Protein discovery via large language model multi-agent collaborations combining physics and machine learning
 
+## Summary
+
+Designing \textit{de novo} proteins beyond those found in nature holds significant promise for advancements in both scientific and engineering applications. Current methodologies for protein design often rely on AI-based models, such as surrogate models that address end-to-end problems by linking protein structure to material properties or vice versa. However, these models frequently focus on specific material objectives or structural properties, limiting their flexibility when incorporating out-of-domain knowledge into the design process or comprehensive data analysis is required. In this study, we introduce ProtAgents, a platform for \textit{de novo} protein design based on Large Language Models (LLMs), where multiple AI agents with distinct capabilities collaboratively address complex tasks within a dynamic environment. The versatility in agent development allows for expertise in diverse domains, including knowledge retrieval, protein structure analysis, physics-based simulations, and results analysis. The dynamic collaboration between agents, empowered by LLMs, provides a versatile approach to tackling protein design and analysis problems, as demonstrated through diverse examples in this study. The problems of interest encompass designing new proteins, analyzing protein structures and obtaining new first-principles data -- natural vibrational frequencies -- via physics simulations. The concerted effort of the system allows for powerful automated and synergistic design of \textit{de novo} proteins with targeted mechanical properties. The flexibility in designing the agents, on one hand, and their capacity in autonomous collaboration through the dynamic LLM-based multi-agent environment on the other hand, unleashes great potentials of LLMs in addressing multi-objective materials problems and opens up new avenues for autonomous materials discovery and design. 
+
 ![image](https://github.com/lamm-mit/ProtAgents/assets/101393859/6244cbc1-f910-496b-a68f-6a633e6aefde)
 
-## Codes
+### Codes
 This repository contains codes to solve complex problems in the context of protein design and analysis using multi-agent framework. The files named exp1, exp2, and exp3 in the repository, corresponding to the experiments I, II, and III, in the corresponding paper, respectively.   
 
-## Requirements
+### Requirements
 Both openAI API and Chroma keys are required to run the codes. The openAI key must be provided in the "llm_config.py" file. Moreover, keys must be provided in the main files, exp1, exp2, and exp3. 
 
 The model leverages a pre-trained autoregressive transformer model to predict the unfolding mechanical behavior of proteins. The path to the model must be provided in the file "agent_functions.py".
 
-## Original paper
+### Original paper
 
 Please cite this work as:
 ```
