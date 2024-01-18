@@ -1,8 +1,7 @@
 # ProtAgents
 ## Protein discovery via large language model multi-agent collaborations combining physics and machine learning
 
-
-![image_agents](https://github.com/lamm-mit/ProtAgents/assets/156870364/5e7ab139-7c38-45aa-90ce-54abec19a56d)
+![image](https://github.com/lamm-mit/ProtAgents/assets/101393859/6244cbc1-f910-496b-a68f-6a633e6aefde)
 
 ## Codes
 This repository contains codes to solve complex problems in the context of protein design and analysis using multi-agent framework. The files named exp1, exp2, and exp3 in the repository, corresponding to the experiments I, II, and III, in the corresponding paper, respectively.   
