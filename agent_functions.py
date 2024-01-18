@@ -42,8 +42,11 @@ storage_context = StorageContext.from_defaults(persist_dir="protein_force_index"
 new_index = load_index_from_storage(storage_context)
 query_engine = new_index.as_query_engine(similarity_top_k=20)
 
+# Path to Autoregressive transformer model, ForceGPT
+model_path = '###'
+
 from ForceGPT import ForceGPTmodel
-model, tokenizer = ForceGPTmodel(model_name='../../ProteinForceGPT/128_length/save_local_V10_BGPTneo_ProtForce_v10_B/', device=device)
+model, tokenizer = ForceGPTmodel(model_name=model_path, device=device)
 ###########################################################################################################
 
 def analyze_protein_CATH_from_PDBID(PDB_id):
