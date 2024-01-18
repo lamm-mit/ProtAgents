@@ -19,7 +19,7 @@ The model leverages a pre-trained autoregressive transformer model to predict th
 
 Please cite this work as:
 ```
-@article{BuehlerMSMSE_2023,
+@article{GhafarollahiBuehler_2024,
     title   = {ProtAgents: Protein discovery via large language model multi-agent collaborations combining physics and machine learning},
     author  = {A. Ghafarollahi, M.J. Buehler},
     journal = {},
