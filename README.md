@@ -37,9 +37,9 @@ Please cite this work as:
     title   = {ProtAgents: Protein discovery via large language model multi-agent collaborations
                combining physics and machine learning},
     author  = {A. Ghafarollahi, M.J. Buehler},
-    journal = {},
+    journal = {Digital Discovery},
     year    = {2024},
-    volume  = {},
+    volume  = {DOI: 10.1039/D4DD00013G},
     pages   = {},
     url     = {}
 }
