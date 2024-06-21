@@ -13,7 +13,7 @@ Designing de novo proteins beyond those found in nature holds significant promis
 
 The problems of interest encompass designing new proteins, analyzing protein structures and obtaining new first-principles data -- natural vibrational frequencies -- via physics simulations. The concerted effort of the system allows for powerful automated and synergistic design of \textit{de novo} proteins with targeted mechanical properties. The flexibility in designing the agents, on one hand, and their capacity in autonomous collaboration through the dynamic LLM-based multi-agent environment on the other hand, unleashes great potentials of LLMs in addressing multi-objective materials problems and opens up new avenues for autonomous materials discovery and design. 
 
-![image](https://github.com/lamm-mit/ProtAgents/assets/101393859/6244cbc1-f910-496b-a68f-6a633e6aefde)
+![image](https://github.com/lamm-mit/ProtAgents/assets/101393859/4b457df4-35a4-4945-ba53-02796ffb1a07)
 
 Figure 1: Overview of the model and approach. 
 
